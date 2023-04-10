@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>ToDo</title>
+  </head>
+  <body>
+    <h1 id="location-name-tag">ToDo</h1>
+    <div class="todo-container">
+      <input type="text" id="todo-input" onkeydown="keyCodeCheck()"/> 
+      <ul id="todo-list"></ul>
+    </div>
+    <div class="delete-btn-wrapper">
+      <button onclick="deletAll()">Reset</button>
+    </div>
+  </body>
+</html>
